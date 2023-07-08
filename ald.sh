@@ -22,6 +22,6 @@
  tar -xvJf tor-browser-linux64-12.5.1_ALL.tar.xz
  apt-get install xvfb -y 
  cd /home
- export MOZ_HEADLESS=1 
  wget https://github.com/Mosnio/yamigv/raw/main/rn.py
+ export MOZ_HEADLESS=1 
  python3 rn.py
