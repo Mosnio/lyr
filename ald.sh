@@ -20,4 +20,4 @@ apt update
  geckodriver --version 
  wget https://www.torproject.org/dist/torbrowser/12.5.1/tor-browser-linux64-12.5.1_ALL.tar.xz
  tar -xvJf tor-browser-linux64-12.5.1_ALL.tar.xz
- apt-get install xvfb -y ￼Enter
+ apt-get install xvfb -y
