@@ -23,5 +23,5 @@
  apt-get install xvfb -y 
  cd /home
  wget https://github.com/Mosnio/yamigv/raw/main/rn.py
- export MOZ_HEADLESS=1 
+ 
  python3 rn.py
